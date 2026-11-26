@@ -22,12 +22,12 @@ Frontend:     React 18 · TypeScript · Telegram WebApp SDK 7.0+ · Tailwind / C
 Databases:    PostgreSQL 15+ · pgvector (RAG / Embeddings) · Redis (Cache & Rate Limits)
 Integrations: СБП (0.2–0.7%) · amoCRM / Bitrix24 · 1C / МойСклад · Webhooks HMAC-SHA256
 AI & LLM:     Groq LLM · OpenAI / Anthropic API · Hybrid RAG · Zero Hallucination Guardrails
-DevOps:       Docker · Docker Compose · Nginx Reverse Proxy · CI/CD · Linux VPS
+DevOps:       Docker · Docker Compose · Nginx Reverse Proxy · CI/CD · Linux
 ```
 
----
-
 </div>
+
+---
 
 ## 🛡️ Инженерный манифест & Стандарт работы
 
@@ -38,17 +38,18 @@ DevOps:       Docker · Docker Compose · Nginx Reverse Proxy · CI/CD · Linux 
 
 ---
 
-## 💼 Боевые продукты в продакшене
+## 💼 Боевые кейсы в продакшене & Живые демо
 
-| Проект | Направление | Архитектура и бизнес-результат | Стек |
+| Проект | Индустрия | Описание решения и стек | Демо / Продакшен |
 | :--- | :--- | :--- | :--- |
-| **[xswapp2p.com](https://xswapp2p.com/arbitrage)** | Fintech & Crypto | Некастодиальный P2P/кросс-чейн обмен цифровых активов. **$320 000+ обменов/мес**, автоматический AML-check транзакций. | `FastAPI` · `React` · `Blockchain AML API` |
-| **[admin24-7.com](https://admin24-7.com/)** | B2B AI Support | Автономный AI-диспетчер первой линии. **-70% ручной нагрузки на саппорт**, ответ 0.1с, маршрутизация тикетов. | `Python` · `Groq LLM` · `PostgreSQL` · `RAG` |
+| **[xswapp2p.com](https://xswapp2p.com)** | Fintech / Web3 | Некастодиальный P2P & кросс-чейн обменник криптоактивов (USDT, TON, BTC) с автоматическим AML-скорингом транзакций. | `React` · `FastAPI` · `PostgreSQL` · `AML` |
 | **[FRESH BALANCE](https://t.me/radeevich_bot/app)** | E-commerce / Food | Telegram Mini App доставки здорового питания: каталог, авто-КБЖУ, нативная оплата СБП в 1 клик, CRM. | `React` · `Telegram SDK` · `FastAPI` · `СБП` |
 | **[HEDO Gastrobar](https://t.me/radeevich_bot/app)** | HoReCa | Mini App меню ресторана, интерактивная бронь столов на карте зала в реальном времени, предзаказ блюд. | `React 18` · `Canvas Layout` · `PostgreSQL` |
-| **[lotbase.net](https://lotbase.net/)** | B2B Marketplace | Мониторинг лотов банкротных торгов и дисконтных активов, скоринг дисконта, Telegram-алерты. | `Python` · `FastAPI` · `PostgreSQL` · `Scrapy` |
-| **[lekcia.com](https://lekcia.com/)** | EdTech SaaS | AI LMS-платформа: транскрибация видеолекций, нарезка конспектов, автоматическая генерация тестов. | `FastAPI` · `React` · `Whisper` · `LLM RAG` |
-| **[job888.app](https://job888.app/)** | HR Tech | Telegram-агрегатор вакансий, быстрый отклик соискателей, ролевой кабинет работодателя. | `FastAPI` · `Telegram Bot API` · `PostgreSQL` |
+| **[admin24-7.com](https://admin24-7.com)** | AI SaaS / B2B | Круглосуточный AI-диспетчер и служба поддержки: точные ответы по базе знаний (RAG), тикет-система. | `FastAPI` · `pgvector` · `amoCRM` · `Webhooks` |
+| **[ZAUM Hub](https://t.me/radeevich_bot/app)** | Community | Telegram-портал закрытого клуба: личный кабинет резидента, каталог базы знаний, платная подписка. | `Telegram Mini App` · `FastAPI` · `Paywall` |
+| **[lekcia.com](https://lekcia.com)** | EdTech / LMS | Образовательная платформа: пошаговые модули курсов и автоматическое тестирование студентов. | `Python/Django` · `React` · `PostgreSQL` |
+| **[lotbase.net](https://lotbase.net)** | Fintech / Scraping | Мониторинг банкротных аукционов: парсинг реестров, фильтр дисконта и Telegram-алерты инвесторам. | `AsyncIO` · `Redis` · `Telegram Bot API` |
+| **[job888.app](https://job888.app)** | HR-Tech | Автоматизация первичного отбора кандидатов в Telegram со скорингом резюме нейросетями. | `FastAPI` · `Groq LLM` · `PostgreSQL` |
 
 ---
 
