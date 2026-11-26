@@ -10,8 +10,7 @@
 [![Website](https://img.shields.io/badge/Официальный_сайт-radeevich.ru-0284c7?style=for-the-badge&logo=googlechrome&logoColor=white)](https://radeevich.ru)
 [![Telegram](https://img.shields.io/badge/Telegram-@radeevich-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/radeevich)
 [![Mini App](https://img.shields.io/badge/Telegram_Mini_App-Демо_шоурум-8b5cf6?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/radeevich_bot/app)
-[![TenChat](https://img.shields.io/badge/TenChat-Юрий_Радеевич-e11d48?style=for-the-badge&logo=target&logoColor=white)](https://tenchat.ru/radeevich)
-[![CV PDF](https://img.shields.io/badge/Резюме-CV_NLP_Fintech-10b981?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://radeevich.ru/cv_nlp_fintech.pdf)
+[![B2B Профиль PDF](https://img.shields.io/badge/B2B_Профиль_решений-PDF_(2_стр)-10b981?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://radeevich.ru/radeevich_solutions_profile.pdf)
 
 ---
 
@@ -32,10 +31,10 @@ DevOps:       Docker · Docker Compose · Nginx Reverse Proxy · CI/CD · Linux 
 
 ## 🛡️ Инженерный манифест & Стандарт работы
 
-1. **Не конструктор. Не студия. Инженер:** Разрабатываю лично, без стажёров, аккаунт-менеджеров и испорченного телефона агентств. Всё общение и сдача спринтов — письменно в Telegram, без созвонов.
-2. **0 ₽ абонентской платы разработчику:** Никаких бессрочных поборов конструкторам (SaleBot / BotHelp берут от 132 000 до 306 000 ₽/год). Клиент оплачивает только прямой VPS (~400–900 ₽/мес).
-3. **100% код в вашем GitHub с 1-го дня:** Полная автономия заказчика. Архитектурная карта, схема БД, docker-compose и деплой-скрипты входят в разработку. Любой сторонний инженер развернёт проект за 30 минут без меня.
-4. **Официальная гарантия:** 14 дней бесплатных багфиксов + 1-й месяц техподдержки в подарок при заказе от 59 900 ₽. Официальный договор с ИП, закрывающие акты УПД.
+1. **Не конструктор. Не студия. Инженер:** Разрабатываю лично, без стажёров, аккаунт-менеджеров и испорченного телефона агентств.
+2. **0 ₽ абонентской платы:** Никаких ежемесячных поборов конструкторам (SaleBot / BotHelp берут от 130 000 до 300 000 ₽/год). Клиент оплачивает только прямой VPS (~400–900 ₽/мес).
+3. **100% код в вашем GitHub с 1-го дня:** Полная автономия заказчика. Архитектурная карта, схема БД и docker-compose скрипты входят в разработку. Любой сторонний инженер развернёт проект за 30 минут без меня.
+4. **Официальная гарантия:** 14 дней бесплатных багфиксов + 1-й месяц техподдержки в подарок при заказе от 59 900 ₽. Официальный договор с ИП, закрывающие акты.
 
 ---
 
@@ -63,11 +62,23 @@ DevOps:       Docker · Docker Compose · Nginx Reverse Proxy · CI/CD · Linux 
 
 ---
 
+## 🏆 Сравнительный бенчмарк: Почему бизнес выбирает Юрия Радеевича
+
+| Критерий выбора | No-Code конструкторы (SaleBot, BotHelp, TGShop) | Студии и агентства (Swift, ChatLabs, Vibes) | Юрий Радеевич (@radeevich) |
+| :--- | :---: | :---: | :---: |
+| **Стоимость Mini App** | Аренда 11k–25.5k ₽/мес (150k–300k ₽/год) | от 150 000 до 1 800 000 ₽ | **59 900 ₽ (Фикс-цена под ключ)** |
+| **Срок запуска MVP** | 1–3 дня (шаблоны с ограничениями) | 4–8 недель (длинные согласования) | **5–7 дней на чистом React** |
+| **Владение исходным кодом** | ❌ 0% (код на чужой платформе) | ⚠️ Передача за доплату или задержка | **✅ 100% в вашем GitHub с 1-го дня** |
+| **Абонентская плата** | ❌ 130 000 – 300 000 ₽/год платформе | ⚠️ Дорогие контракты поддержки | **✅ 0 ₽ (только личный сервер ~500 ₽/мес)** |
+| **Формат взаимодействия** | Тикеты в общую техподдержку | «Испорченный телефон» через менеджеров | **Лично с senior-архитектором в Telegram** |
+| **Безопасный входной шаг** | Месячный тест платформы | Предоплата 50–100% за весь скоуп | **Экспресс-аудит 9 900 ₽ (100% в зачёт)** |
+
+---
+
 ## 🛠️ Открытые архитектурные шаблоны в профиле
 
-- **[`living-context-agent-core`](https://github.com/mgoldkey-ship-it/living-context-agent-core)** — FastAPI-ядро мультиагентного ассистента с живой документацией, изоляцией архивных версий и безопасным вызовом инструментов.
-- **[`ai-webhook-workflow-starter`](https://github.com/mgoldkey-ship-it/ai-webhook-workflow-starter)** — Промышленный шаблон интеграций: Telegram/CRM вебхуки, строгая идемпотентность, маскирование PII, фильтр Prompt Injection, Rate Limit и мониторинг.
-- **[`zaum-influencer-hub`](https://github.com/mgoldkey-ship-it/zaum-influencer-hub)** — Интерактивный витринный стенд Telegram Mini Apps (демо-магазин Fresh Balance и бронирование Hedo Gastrobar).
+- **[`living-context-agent-core`](https://github.com/radeevich/living-context-agent-core)** — FastAPI-ядро мультиагентного ассистента с живой документацией, изоляцией архивных версий и безопасным вызовом инструментов.
+- **[`ai-webhook-workflow-starter`](https://github.com/radeevich/ai-webhook-workflow-starter)** — Промышленный шаблон интеграций: Telegram/CRM вебхуки, строгая идемпотентность, маскирование PII, фильтр Prompt Injection, Rate Limit и мониторинг.
 
 ---
 
